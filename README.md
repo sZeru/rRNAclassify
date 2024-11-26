@@ -1,5 +1,5 @@
-# 16S or 18S rrna classifier
-Classifies a nucleotide sequence as either belonging to 16S (prokaryotic) or 18S (eukaryotic) ribosome.
+# 16S or 18S rRNA classifier
+Classifies a nucleotide sequence as either belonging to 16S (prokaryotic) or 18S (eukaryotic) rRNA gene.
 Sequence must be no greater than 2400 nucleotides in length.
 
 ## Included Files :
