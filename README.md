@@ -10,7 +10,7 @@ Sorts the item as 16S or 18S according to the description recieved.
 If it crashes or is exited early, it will pick up where it last left off.
 
 #### FAFSA_Merger :
-This merges the FASTA files from both SILVA and NCBI into merged files.
+This combines the FASTA files from both SILVA and NCBI into merged files.
 
 #### Remove_Duplicates :
 Run the file to clean the data from FAFSA_Merger, removing duplicates.
@@ -22,5 +22,5 @@ Formats the files output from Remove_Duplicates into binary for training.
 #### Model_Train :
 Trains the model using the data provided from Boolean_Formatter. Saves the final weights in the Model file.
 
-#### Model :
+#### weights.csv :
 The saved model weights after the training run.
